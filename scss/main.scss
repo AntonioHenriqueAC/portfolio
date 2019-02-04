@@ -82,12 +82,12 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    "bioimage bio bio"
+    "bio-image bio bio"
     "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
-    grid-area: bioimage;
+    grid-area: bio-image;
     margin: auto;
     border-radius: 50%;
     border: 3px solid $secundary-color;
