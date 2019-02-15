@@ -13,5 +13,12 @@
     "deploy": "gh-pages -d dist"
   },
   "author": "Antonio Henrique",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioHenriqueAC/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntonioHenriqueAC/portfolio/issues"
+  }
 }
