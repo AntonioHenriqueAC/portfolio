@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "responsive portfolio website",
+  "description": "Antônio Henrique portfolio Website",
   "main": "index.js",
   "homepage": "https://antoniohenriqueac.github.io",
   "dependencies": {
