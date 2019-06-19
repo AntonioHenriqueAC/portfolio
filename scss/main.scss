@@ -73,6 +73,16 @@ main {
     h1 {
       margin-top: 20vh;
     }
+
+    filter: blur(10px);
+    -webkit-filter: blur(1.5px);
+
+    &:hover {
+
+      filter: blur(0px);
+      -webkit-filter: blur(0px);
+      transition: 1800ms;
+    }
   }
 }
 
@@ -123,6 +133,7 @@ main {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
+
   img {
     width: 100%;
     border: 3px #fff solid;
@@ -155,6 +166,7 @@ main {
       padding: 0.5rem 1.5rem;
       background: $secundary-color;
       color: set-text-color($secundary-color);
+
       span {
         color: set-text-color($secundary-color);
       }
