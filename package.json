@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://antoniohenriqueac.github.io",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   },
   "devDependencies": {},
   "scripts": {
